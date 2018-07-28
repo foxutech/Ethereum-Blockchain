@@ -9,7 +9,6 @@ RUN make geth
 WORKDIR /
 RUN mkdir /block-data
 COPY myGenesis.json myGenesis.json
-COPY blockchain.sh blockchain.sh
 RUN ln -sf /go-ethereum/build/bin/geth /bin/geth
-EXPOSE 22 8088 50070 8545
+EXPOSE 22 8080 50070 8545
 ENTRYPOINT geth --datadir /block-data init /myGenesis.json
