@@ -1,0 +1,19 @@
+{
+   "config": {
+      "chainId": xxxxx,
+      "homesteadBlock": 0,
+      "eip155Block": 0,
+      "eip158Block": 0,
+      "byzantiumBlock": 0
+   },
+   "difficulty": "xxxxx",
+   "gasLimit": "xxxxxxxx",
+   "alloc": {
+      "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy": { 
+          "balance": "xxxxxxxxxxxxxxxxxxxxx" 
+      },
+      "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy": { 
+          "balance": "xxxxxxxxxxxxxxxxxxxxxxxxx" 
+      }
+   }
+}
